@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background-color: #1a1a1a;
+  --text-color: #fff;
+  --accent-color: #f05a20;
+}
+
+body {
+  background: var(--background-color);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  padding: 32px 64px;
+}
+
+.navbar .container {
+  display: flex;
+  width: 1366px;
+  padding: 48px 68px 32px 68px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar ul li a {
+  padding: 8px;
+}
+
+.hero .container .hero-textblock {
+  display: flex;
+  width: 930px;
+  padding: 63px 21px;
+  justify-content: center;
+  align-items: center;
+  background: var(--accent-color);
+  gap: 8px;
+  border-radius: 30px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero .container {
+  display: flex;
+  width: 1246px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero .container .hero-firstline {
+  width: 1246px;
+  display: flex;
+  gap: 20px;
+}
+
+.hero .container .hero-secondline {
+  width: 1246px;
+  display: flex;
+  gap: 20px;
+}
+
+h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--text-color);
+}
+
+.button-text {
+  color: var(--text-color);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.specific {
+  font-family: "Pinyon Script", sans-serif;
+  font-weight: 400;
+}
+
+.button {
+  display: flex;
+  padding: 148px 100px;
+  justify-content: center;
+  align-items: center;
+  background: var(--accent-color);
+  gap: 8px;
+  border-radius: 30px;
+}
+
+.button  :hover{
+    color: #782D10;
+}
